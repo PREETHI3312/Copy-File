@@ -1,5 +1,7 @@
-# EXP 11:Copy-File
 # DATE:
+
+# EXP 11:Copy-File
+
 ## AIM:
 To write a python program for copying the contents from one file to another file.
 ## EQUIPEMENT'S REQUIRED: 
@@ -20,9 +22,12 @@ Print the output.
 End the program.
 ## PROGRAM:
 ```
-#Copy contents of a file
+
 #Developed by: PREETHI  A K
 #Register number: 212223230156
+
+#Copy contents of a file
+
 with open("text.txt",'r') as fp:
         msg1=fp.read()
 with open("copy.txt",'w') as fp1:
